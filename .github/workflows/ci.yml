@@ -22,6 +22,12 @@ jobs:
       - name: Build the site
         run: |
           npx hyperbook build
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.hyperbook/out
+
   deploy:
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
