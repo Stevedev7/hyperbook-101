@@ -1,0 +1,14 @@
+{
+  "name": "Stevedev7",
+  "version": "0.0.0",
+  "description": "Documentation tool exploration.",
+  "license": "cc0",
+  "author": {
+    "name": "Stevedev7",
+    "url": "https://github.com/Stevedev7/hyperbook-101"
+  },
+  "language": "en",
+  "search": true,
+  "logo": "/logo.png",
+  "allowDangerousHtml": true
+}
