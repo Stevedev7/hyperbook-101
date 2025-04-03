@@ -10,5 +10,6 @@
   "language": "en",
   "search": true,
   "logo": "/logo.png",
-  "allowDangerousHtml": true
+  "allowDangerousHtml": true,
+  "basePath": "/hyperbook-101"
 }
